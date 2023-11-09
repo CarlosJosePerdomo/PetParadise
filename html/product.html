@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.8/glider.min.css">
+
+    <link rel="stylesheet" href="../css/stylestienda.css" />
+    <title>Tienda</title>
+  </head>
+
+  <body>
+
+    <header class="header" id="header">
+      <div class="navigation">
+        <div class="nav-center container d-flex">
+        <i class="bx bx-spa"></i>
+        <a href="#" class="logo"><h1>PetParadise</h1></a>
+
+          <ul class="nav-list d-flex">
+            <li class="nav-item">
+              <a href="../index.html" class="nav-link">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a href="../html/product.html" class="nav-link">Tienda</a>
+            </li>
+            <li class="nav-item">
+              <a href="../html/blog.html" class="nav-link">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a href="../html/contac.html" class="nav-link">Contacto</a>
+            </li>
+            <li class="icons d-flex">
+            <a href="../html/login.html" class="icon">
+              <i class="bx bx-user"></i>
+            </a>
+            <div class="icon">
+              <i class="bx bx-search"></i>
+            </div>
+            <a href="../html/heart.html" class="icon">
+              <i class="bx bx-heart"></i>
+              <span class="d-flex">0</span>
+            </a>
+            <a href="../html/carrito.html" class="icon">
+              <i class="bx bx-cart"></i>
+              <span class="d-flex">0</span>
+            </a>
+          </li>
+          </ul>
+
+          <div class="icons d-flex">
+            <a href="../html/login.html" class="icon">
+              <i class="bx bx-user"></i>
+            </a>
+            <div class="icon">
+              <i class="bx bx-search"></i>
+            </div>
+            <a href="../html/heart.html" class="icon">
+              <i class="bx bx-heart"></i>
+              <span class="d-flex">0</span>
+            </a>
+            <a href="../html/carrito.html" class="icon">
+              <i class="bx bx-cart"></i>
+              <span class="d-flex">0</span>
+            </a>
+          </div>
+
+          <div class="hamburger">
+            <i class="bx bx-menu-alt-left"></i>
+          </div>
+        </div>
+      </div>
+    </header>
+
+  <main>
+
+    <h1></h1>
+    <div class="carousel">
+			<div class="carousel__contenedor">
+        <h1 style="margin-top: 50px; margin-bottom: 15px; justify-content: center; display: flex;">MÁS VENDIDOS</h1>
+        <p style="justify-content: center; display: flex; margin-bottom: 40px">Productos más vendidos en nuestra tienda online</p>
+				<button aria-label="Anterior" class="carousel__anterior">
+					<i class="bx bx-left-arrow-alt"></i>
+				</button>
+
+				<div class="carousel__lista">
+					<div class="carousel__elemento">
+						<img src="../images/producto5.jpg">
+						<p>Royal Canin</p>
+					</div>
+					<div class="carousel__elemento">
+						<img src="../images/producto7.png" >
+						<p>Chunky</p>
+					</div>
+					<div class="carousel__elemento">
+						<img src="../images/producto3.png" >
+						<p>Petys</p>
+					</div>
+					<div class="carousel__elemento">
+						<img src="../images/producto10.jpeg" >
+						<p>Dogourmet</p>
+					</div>
+	
+					<div class="carousel__elemento">
+						<img src="../images/producto1.jpg">
+						<p>Pedigree</p>
+					</div>
+					<div class="carousel__elemento">
+						<img src="../images/producto11.png">
+						<p>Barf</p>
+					</div>
+					<div class="carousel__elemento">
+						<img src="../images/producto18.png" >
+						<p>Donkat</p>
+					</div>
+					<div class="carousel__elemento">
+						<img src="../images/bulto5.jpg" >
+						<p>Mirringo</p>
+					</div>
+				</div>
+
+				<button aria-label="Siguiente" class="carousel__siguiente">
+					<i class="bx bx-right-arrow-alt"></i>
+				</button>
+			</div>
+
+			<div role="tablist" class="carousel__indicadores"></div>
+		</div>
+	</div>
+
+    <section class="section all-products" id="products">
+      <div class="top container">
+        <h1>TODOS LOS PRODUCTOS</h1>
+        <form>
+          <select>
+            <option value="1">Clasificación</option>
+            <option value="2">Ordenar por marca</option>
+            <option value="3">Ordenar por precio</option>
+            <option value="4">Ordenar por popularidad</option>
+            <option value="5">Ordenar por el más vendido</option>
+          </select>
+          <span><i class="bx bx-chevron-down"></i></span>
+        </form>
+      </div>
+      <div class="product-center container">
+        <div class="product-item">
+          <div class="overlay">
+            <a href="./productDetails.html" class="product-thumb">
+              <img src="../images/producto6.png" alt="" />
+            </a>
+            <span class="discount">50%</span>
+          </div>
+          <div class="product-info">
+            <span>UNIDAD</span>
+            <a href="/productDetails.html">Pro Plan - Cachorro</a>
+            <h4>$47.500</h4>
+          </div>
+          <ul class="icons">
+            <li><i class="bx bx-heart"></i></li>
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </div>
+        <div class="product-item">
+          <div class="overlay">
+            <a href="" class="product-thumb">
+              <img src="../images/producto13.jpg" alt="" />
+            </a>
+            <span class="discount">25%</span>
+          </div>
+          <div class="product-info">
+            <span>UNIDAD</span>
+            <a href="">Pulvex - Jabón</a>
+            <h4>$8.000</h4>
+          </div>
+          <ul class="icons">
+            <li><i class="bx bx-heart"></i></li>
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </div>
+        <div class="product-item">
+          <div class="overlay">
+            <a href="" class="product-thumb">
+              <img src="../images/producto14.jpg" alt="" />
+            </a>
+            <span class="discount">40%</span>
+          </div>
+          <div class="product-info">
+            <span>CONJUNTO</span>
+            <a href="">Collar - Collar Antipulgas</a>
+            <h4>$35.500</h4>
+          </div>
+          <ul class="icons">
+            <li><i class="bx bx-heart"></i></li>
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </div>
+        <div class="product-item">
+          <div class="overlay">
+            <a href="" class="product-thumb">
+              <img src="../images/producto15.jpg" alt="" />
+            </a>
+          </div>
+          <div class="product-info">
+            <span>UNIDAD</span>
+            <a href="">Nerf - Pelota Caucho</a>
+            <h4>$32.500</h4>
+          </div>
+          <ul class="icons">
+            <li><i class="bx bx-heart"></i></li>
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </div>
+        <div class="product-item">
+          <div class="overlay">
+            <a href="" class="product-thumb">
+              <img src="../images/producto8.png" alt="" />
+            </a>
+            <span class="discount">60%</span>
+          </div>
+          <div class="product-info">
+            <span>UNIDAD</span>
+            <a href="">Pedigree - Cachorro</a>
+            <h4>$20.600</h4>
+          </div>
+          <ul class="icons">
+            <li><i class="bx bx-heart"></i></li>
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </div>
+        <div class="product-item">
+          <div class="overlay">
+            <a href="" class="product-thumb">
+              <img src="../images/producto16.jpg" alt="" />
+            </a>
+          </div>
+          <div class="product-info">
+            <span>UNIDAD</span>
+            <a href="">Nerf - Misil</a>
+            <h4>$35.500</h4>
+          </div>
+          <ul class="icons">
+            <li><i class="bx bx-heart"></i></li>
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </div>
+        <div class="product-item">
+          <div class="overlay">
+            <a href="" class="product-thumb">
+              <img src="../images/producto17.jpg" alt="" />
+            </a>
+            <span class="discount">10%</span>
+          </div>
+          <div class="product-info">
+            <span>UNIDAD</span>
+            <a href="">Fofi Cat - Arena</a>
+            <h4>$27.500</h4>
+          </div>
+          <ul class="icons">
+            <li><i class="bx bx-heart"></i></li>
+            <li><i class="bx bx-search"></i></li>
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </div>
+        <div class="product-item">
+          <div class="overlay">
+            <a href="" class="product-thumb">
+              <img src="../images/producto18.png" alt="" />
+            </a>
+          </div>
+          <div class="product-info">
+            <span>UNIDAD</span>
+            <a href="">Donkat - Adulto</a>
+            <h4>$200.150</h4>
+          </div>
+          <ul class="icons">
+            <li><i class="bx bx-heart"></i></li>
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="pagination">
+      <div class="container">
+        <span>1</span> <span>2</span> <span>3</span> <span>4</span>
+        <span><i class="bx bx-right-arrow-alt"></i></span>
+      </div>
+    </section>
+  </main>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="row">
+        <div class="col d-flex">
+          <h1 style="font-size: 20px;">PetParadise</h1></a><br>
+          <p style="font-size: 11px;">Somos una tienda online de alimentos,<br> juguetes, limpieza y medicamentos<br> para tus mascotas, pero no queremos<br> ser una tienda online más queremos <br>ser la tuya donde encuentras calidad,<br> buen precio y comodidad al comprar.</p>
+          <br><div class="social-icons"><span><i class='bx bxl-instagram-alt' style="font-size: 20px;"></i></span>
+          <span><i class='bx bxl-facebook-circle' style="font-size: 20px;"></i></span>
+          <span><i class='bx bxl-twitter' style="font-size: 20px;"></i></span>
+          <span><i class='bx bxl-whatsapp' style="font-size: 20px;"></i></span></div>
+        </div>
+        <div class="col d-flex">
+          <h4>INFORMATIVO</h4>
+          <a href="">Términos y condiciones</a>
+          <a href="">Politicas de entrega</a>
+          <a href="">Politicas de devoluciones</a>
+          <a href="">Politicas de privacidad</a>
+        </div>
+        <div class="col d-flex">
+          <h4>ENLACES</h4>
+          <a href="">Tienda</a>
+          <a href="">Quiénes somos</a>
+          <a href="">Blog</a>
+          <a href="">Contactenos</a>
+        </div>
+        <div class="col d-flex">
+          <h4>MARCAS DE ALIMENTO</h4>
+          <a href="">Pro Plan</a>
+          <a href="">Pedigree</a>
+          <a href="">Royal Canin</a>
+          <a href="">Dogourmet</a>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.8/glider.min.js"></script>
+    <script src="../js/product.js"></script>
+    <script src="../js/index.js"></script>
+  </body>
+</html>
